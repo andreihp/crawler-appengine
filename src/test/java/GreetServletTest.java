@@ -36,6 +36,6 @@ public class GreetServletTest {
 
         greetServlet.doGet(request, response);
 
-        assertEquals("Salut Vasile" + System.getProperty("line.separator"), stringWriter.toString());
+        assertEquals("Salutare Vasile" + System.getProperty("line.separator"), stringWriter.toString());
     }
 }

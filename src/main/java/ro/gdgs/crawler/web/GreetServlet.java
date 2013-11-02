@@ -20,7 +20,7 @@ public class GreetServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         try {
             String name = request.getParameter("username");
-            out.println("Salut " + name);
+            out.println("Salutare " + name);
         } finally {
             out.close();
         }
